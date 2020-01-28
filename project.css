@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 498px;
+}
+.myform {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+label {
+    flex: 0 0 100px;
+    margin-bottom: 21px;
+    font-size: 24px;
+    color: grey;
+
+}
+input {
+    flex: 0 0 295px;
+    margin-bottom: 25px;
+    height: 30px;
+    padding-left:5px;
+}
+.buttons {
+    width: 100%;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+input.add {
+    background-color: hsl(236, 43%, 57%);
+    color: wheat;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+    flex: 0 0 35%;
+}
+input.add:hover {
+    background: grey;
+}
+button.cancel {
+    background: #ff7600;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+    margin: 2px 100px 24px 0px;
+}
+button.cancel:hover {
+    background:#7b5ed4ba;
+}
+.error{
+    color:red;
+    margin:8px 00 00 5px;
+}
+button#btn-update {
+    background: #ff7600;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+    margin: 2px 100px 24px 0px;
+}
+button#btn-update:hover {
+    background: grey;
+}
+.container-inner1{
+    max-width: 430px;
+}
+h1 {
+    text-align: center;
+    color: #666;
+}button.add{
+    background: #ff7600;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+    margin: 2px 100px 24px 0px;
+}
+button.add:hover {
+    background: grey;
+}
